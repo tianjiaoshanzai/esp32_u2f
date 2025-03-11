@@ -44,7 +44,7 @@ esptool --chip esp32s3  write_flash --flash_mode dio --flash_size 2MB --flash_fr
 
 3 、去 https://github.com/espressif/esptool/releases 下载刷机工具 
 
-4 、按板子上按钮和重启键进入刷机模式 
+4 、按板子上按钮和重启键进入刷机模式 (长按按钮->短按reset松开->松开按钮)
 
 5 、输入 esptool erase_flash 先清除 flash 
 
